@@ -31,6 +31,8 @@ builder.Services.AddHostedService<Worker>();
 builder.Services.AddHostedService<MonitorDBChanges>();
 builder.Services.AddSignalR();
 
+
+
 //builder.ConfigureServices((hostContext, services) => {
 
 //    services.Configure<MonitorDatabaseSettings>(hostContext.Configuration.GetSection(MonitorDatabaseSettings.SectionName));
